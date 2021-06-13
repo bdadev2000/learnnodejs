@@ -1,0 +1,27 @@
+{
+  "name": "one-day",
+  "version": "1.0.0",
+  "description": "learn nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin https://github.com/bdadev2000/learnnodejs.git"
+  },
+  "keywords": [
+    "learn",
+    "node",
+    "js"
+  ],
+  "author": "Duc Anh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
